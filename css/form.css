@@ -1,0 +1,36 @@
+body{
+	background-color:skyblue;
+	margin:0px;
+	padding:0px;
+}
+.forms{
+	width:50%;
+	background-image:url("../img/C1.png");
+	width:50%;
+	height: auto;
+	background-size:100% 100%;
+	color:red;
+	height: auto;
+	margin:0px auto;
+}
+
+#gooter{
+	padding:7px;
+	border-radius:12px;
+	width:50%;
+}
+#label{
+	width: 20%;
+	margin-left:25px;
+}
+
+#button{
+	background-color:blue; 
+	color:white; padding:9px; 
+	margin-bottom:5px; 
+	margin-left:130px;
+	border-radius:12px;
+	width:20%; 
+	border:2px solid white; 
+	margin-top:5px;
+}

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>royalsset</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="icon" type="X-icon" href="img/logo3.jpg">
+
+    <!-- style sheet -->
+    <style>
+    	#navhover:hover{
+    		background-color:darkgoldenrod;
+    		color:white;
+    		border-radius:30px;
+    		transition:0.2s;
+    		
+    	}
+    	#active{
+    		background-color:darkgoldenrod;
+    		color:white;
+    		border-radius:30px;
+    		
+    	}
+    	#active:hover{
+    		background-color:white;
+    		color:black;
+    		border-radius:30px;
+    		transition:0.5s;
+    	}
+    	.login{
+    		background-image:url('./img/bull.jpg');
+    		background-repeat:no-repeat;
+    		background-size:100% 100%;
+    		width:100%;
+    		height:600px;
+    	}
+    	#btn1{
+    		border-radius:20px;
+    		padding-block:10px;
+
+
+    	}
+    	#btn2{
+    		background-color:transparent;
+    		border-radius:30px;
+    		color:white;
+    	}
+    	#btn2:hover{
+    		background-color:white;
+    		color:black;
+    		transition:0.5s;
+    	}
+    	#btn1:hover{
+    		background-color:white;
+    		color:black;
+    		transition:0.5s;
+    	}
+    	#btn3:hover{
+    		background-color:white;
+    		color:black;
+    		transition:0.5s;
+
+    	}
+    	#btn4:hover{
+    		background-color:white;
+    		color:black;
+    		transition:0.5s;
+    	}
+    	#btn4{
+    		border-radius:30px;
+    	}
+    	#btn5{
+    		background-color:purple;
+    		color:white;
+
+    	}
+    	input{
+    		border-radius:25px;
+    		margin:5px;
+    	}
+    </style>
+
+</head>
+
+<body>
+
+	<!-- website header -->
+
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+		<a href="index.html">
+			<img src="img/logo2.png" alt="logo" width="250%" height="60px">
+		</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- navbar links -->
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+    <ul class="navbar-nav ml-auto">
+    	<li class="nav-item">
+        <a class="nav-link" href="#started" id="active">Get started</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="navhover">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html" id="navhover">About</a>
+      </li>
+      <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navhover" data-toggle="dropdown">
+        Services
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="market.html">Market</a>
+        <a class="dropdown-item" href="investment.html">Investments</a>
+      </div>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html" id="navhover">Contact</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+
+
+
+
+
+
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500 Index"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100 Cash CFD"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR to USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "largeChartUrl": "index.html",
+  "displayMode": "regular",
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+
+
+
+
+
+<!-- showcase -->
+<div class="login" id="started">
+	<div class="container pt-5">
+		<h2 style="color:goldenrod; font-weight:bold; padding-top:60px;">Cryptocurrency</h2>
+
+	<h3 style="color:white; font-weight:bold; padding-top:50px;">Investments & ICO Blockchain Solutions</h3>
+
+	<p style="color:white; font-weight:bold;
+	padding-top:45px;">
+		Our company specializes on Blockchain Technologies, SmartContracts, Initial Coin Offering (ICO) and Digital Currencies Investments
+	</p>
+
+	<div class="pt-3 container">
+
+		<a href="signup.php" class="btn btn-primary" id="btn1">Create Account</a>
+		<a href="sign-in.php" class="btn btn-warning ml-3" id="btn2">Login</a>
+
+
+	</div>
+
+	</div>
+</div>
+
+<!-- News latter -->
+<section class="bg-primary text-light p-3">
+<div class="container">
+
+	<div class="d-md-flex align-items-center">
+		<h4 class="mb-3 mb-md-0" style="font-weight:bold; font-style:italic;">Signup for our newslatter</h4>
+
+		<div class="ml-auto">
+			<input type="email" name="email" placeholder="Enter Email">
+		<button class="btn btn-danger" id="btn3">Subscribe</button>
+		</div>
+    </div>
+</div>
+</section>
+
+
+
+<!-- Website Video -->
+
+<div class="container mt-4">
+
+	<video id="" controls="control" autoplay="autoplay" width="90%" height="400" loop>
+		<source src="video/clip.mp4" type="video/mp4" />
+	</video>
+
+</div>
+
+
+
+
+
+<!-- About -->
+
+<section class="p-4 container">
+	<img src="img/about.png" alt="about" width="90%" height="450px">
+
+	<div>
+		<h5 class="pt-3">Get to know us</h5>
+		<h4>About RoyalAsset</h4>
+		<p> <img src="img/map.png" alt="map" width="12%" height="40px"> Our Mission as an Investment company is to help investors eliminate the gap between where they are now financially, and where they want to be. In order to succeed, we work with investors to establish, improve and implement long-term strategic wealth management plans that make them possible to meet their financial purposes. Our investments plan is customized for each investor and they are based on investors profile and return targets. 
+
+        Furthermore, we strive to produce perfect long-term performance for our investors, despite the public securities market behavior. We assure that your wealth performs in the best way which is essential to meet your unique purposes. At the same time, We continually investigate new and better financial strategies and investment products that will more beneficially serve our investors’ financial purposes. We are a trusted partner that enables our investors to feel secure in the knowledge that their investment are safe with us. Royalasset Trading Investment Platform.</p>
+		
+	</div>
+	
+</section>
+
+
+
+
+<!-- investment plans -->
+
+<section class="p-5">
+	<div class="container">
+		<h3 class="p-2 mb-3 text-center" style="font-family:cursive; font-weight:bold; color:purple;">Our Investment Plans</h3> 
+
+		<hr>
+
+		<div class="row mt-3 text-center">
+			<div class="col-md mt-2">
+				<div class="card bg-dark text-light">
+					<div class="card-body text-center">
+						<h4 class="card-title mb-3">Starter Plan</h4>
+						<h5>5.00% Hourly</h5>
+						<p class="card-text">USD 30.00 - USD 50.00</p>
+						<button class="btn btn-primary" id="btn4">Invest Now</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md mt-2">
+				<div class="card bg-primary text-light">
+					<div class="card-body text-center">
+						<h4 class="card-title mb-3">Daily Plan</h4>
+						<h5>10.00% Hourly</h5>
+						<p class="card-text">USD 50.00 - USD 100.00</p>
+						<button class="btn btn-warning" id="btn4">Invest Now</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md mt-2">
+				<div class="card bg-warning text-light">
+					<div class="card-body text-center">
+						<h4 class="card-title mb-3">Weekly Plan</h4>
+						<h5>15.00% Hourly</h5>
+						<p class="card-text">USD 100.00 - USD 500.00</p>
+						<button class="btn btn-danger" id="btn4">Invest Now</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md mt-2">
+				<div class="card bg-danger text-light">
+					<div class="card-body text-center">
+						<h4 class="card-title mb-3">Monthly Plan</h4>
+						<h5>25.00% Hourly</h5>
+						<p class="card-text">USD 500.00 - USD 1,000.00</p>
+						<button class="btn btn-dark" id="btn4">Invest Now</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md mt-2">
+				<div class="card bg-info text-light">
+					<div class="card-body text-center">
+						<h4 class="card-title mb-3">Annual Plan</h4>
+						<h5>50.00% Hourly</h5>
+						<p class="card-text">USD 5,000.00 - USD Unlimited</p>
+						<button class="btn btn-success" id="btn4">Invest Now</button>
+					</div>
+		</div>
+		
+	</div>
+</section>
+
+
+
+<!-- Investment tools -->
+
+<div class="container mt-5">
+	
+	<div>
+		<h4 class="text-center">Unlock Your Financial Potential with Our Expert Technical Analysis</h4>
+		<hr>
+
+		<p>
+			At <strong>Royalasset</strong>, we provide the best technical analysis for both the cryptocurrency and stock markets. Our team of seasoned analysts and cutting-edge technology empowers you with insights that help you make informed investment decisions. With our unrivaled financial marketing strategies, we help you calculate potential returns, assess future benefits, and strategically plan your investments.
+
+Our tools and resources are designed to help you monitor and optimize your portfolio in real time. Whether you are a seasoned investor or just starting, <strong>Royalasset</strong> is your trusted partner in navigating the complexities of the financial markets. Do check our services page to have our powerful tools at you fingertips. <a class="btn btn-dark" href="analysis.html" id="btn4">Technical Analysis Tools</a>
+<br>
+<br>
+<strong>Join us today and take control of your financial future.</strong> 
+
+<a href="#started" type="button" class="btn btn-warning" id="btn4">Get Started</a>
+
+</p>
+	</div>
+
+
+</div>
+
+
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "12M",
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "showFloatingTooltip": true,
+  "width": "100%",
+  "height": "550",
+  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+  "gridLineColor": "rgba(240, 243, 250, 0)",
+  "scaleFontColor": "rgba(209, 212, 220, 1)",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+  "tabs": [
+    {
+      "title": "Indices",
+      "symbols": [
+        {
+          "s": "BINANCE:BTCUSDT"
+        },
+        {
+          "s": "BINANCE:ETHUSDT"
+        },
+        {
+          "s": "BINANCE:SOLUSDT"
+        },
+        {
+          "s": "BINANCE:FETUSDT"
+        },
+        {
+          "s": "BINANCE:ADAUSDT"
+        },
+        {
+          "s": "BITSTAMP:XRPUSD"
+        },
+        {
+          "s": "BINANCE:NEARUSDT"
+        },
+        {
+          "s": "BINANCE:DOTUSDT"
+        }
+      ],
+      "originalTitle": "Indices"
+    },
+    {
+      "title": "Futures",
+      "symbols": [
+        {
+          "s": "CME_MINI:ES1!",
+          "d": "S&P 500"
+        },
+        {
+          "s": "CME:6E1!",
+          "d": "Euro"
+        },
+        {
+          "s": "COMEX:GC1!",
+          "d": "Gold"
+        },
+        {
+          "s": "NYMEX:CL1!",
+          "d": "WTI Crude Oil"
+        },
+        {
+          "s": "NYMEX:NG1!",
+          "d": "Gas"
+        },
+        {
+          "s": "CBOT:ZC1!",
+          "d": "Corn"
+        }
+      ],
+      "originalTitle": "Futures"
+    },
+    {
+      "title": "Bonds",
+      "symbols": [
+        {
+          "s": "CBOT:ZB1!",
+          "d": "T-Bond"
+        },
+        {
+          "s": "CBOT:UB1!",
+          "d": "Ultra T-Bond"
+        },
+        {
+          "s": "EUREX:FGBL1!",
+          "d": "Euro Bund"
+        },
+        {
+          "s": "EUREX:FBTP1!",
+          "d": "Euro BTP"
+        },
+        {
+          "s": "EUREX:FGBM1!",
+          "d": "Euro BOBL"
+        }
+      ],
+      "originalTitle": "Bonds"
+    },
+    {
+      "title": "Forex",
+      "symbols": [
+        {
+          "s": "FX:EURUSD",
+          "d": "EUR to USD"
+        },
+        {
+          "s": "FX:GBPUSD",
+          "d": "GBP to USD"
+        },
+        {
+          "s": "FX:USDJPY",
+          "d": "USD to JPY"
+        },
+        {
+          "s": "FX:USDCHF",
+          "d": "USD to CHF"
+        },
+        {
+          "s": "FX:AUDUSD",
+          "d": "AUD to USD"
+        },
+        {
+          "s": "FX:USDCAD",
+          "d": "USD to CAD"
+        }
+      ],
+      "originalTitle": "Forex"
+    }
+  ]
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+<br>
+
+
+<!-- CRYPTO CONVERTER -->
+
+<h3 class="text-center p-4">Crypto Converter</h3>
+<!-- Crypto Converter ⚡ Widget --><crypto-converter-widget amount="1" shadow="true" symbol="true" live="true" fiat="united-states-dollar" crypto="bitcoin" font-family="inherit" background-color="#5a1593" decimal-places="2" border-radius="3.6rem"></crypto-converter-widget>
+ <script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js"></script>
+ <!-- /Crypto Converter ⚡ Widget -->
+
+<br>
+
+
+
+
+
+
+
+<!-- Affiliate Program -->
+
+  <section id="affiliate" class="p-4">
+
+  	<div class="container">
+  		<div class="row align-items-center">
+
+  			<div class="col-md p-4">
+  				<p style="color:purple; font-family:cursive; font-weight:bold;">Sign up and become an affiliate today<p>
+
+  					<h4>Affiliate Program For You</h4>
+
+  					<p>Get Started Today!
+                    Join our Investment Affiliate Program and start earning by helping others make smart investment choices. Whether you have a large audience or a niche following, there's an opportunity for everyone to profit while promoting financial literacy and investment growth.
+                    Sign up now and take the first step towards a lucrative partnership with us!</p>
+                    <a href="" type="button" class="btn btn-warning" style="border-radius:12px; background-color:purple; color:white;">Get Started</a>
+  				
+  			</div>
+
+  			<div class="col-md">
+  				<img src="img/affiliate.png" alt="affiliate" class="img-fluid" width="90%">
+  			</div>
+  			
+  		</div>
+  		
+  	</div>
+
+  </section>
+
+
+<!-- Contact Us -->
+
+
+<div class="container p-5">
+	<div>
+		<h5 class="text-center" style="color:purple; font-family:cursive; align-text:center;">Contact Us</h5>
+		<h4 class="text-center">Speak With Us</h4>
+	</div>
+
+	<form class="container p-4">
+		<div class="row">
+
+			<div class="col">
+				<input type="Name" class="form-control" name="Name" placeholder="Enter Name" required>
+			</div>
+			<div class="col">
+				<input type="email"  class="form-control" name="email" placeholder="Enter Email" required>
+			</div>
+		</div>
+
+			<div>
+				<input type="subject" class="form-control" name="subject" placeholder="Subject" required>
+			</div>
+
+			<textarea placeholder="Enter Message" class="form-control"></textarea>
+
+
+
+		<div class="text-center mt-3">
+			<button type="button" class="btn btn-warning" id="btn5">SEND MESSAGE</button>
+		</div>
+	</form>
+
+
+</div>
+
+
+
+
+<!-- Website Footer  -->
+
+<section class="container-fluid p4 bg-dark">
+	<div class="row">
+		<div class="col">
+			<img src="img/logo.png" alt="logo" width="25%">
+			<p class="mt-4 text-light">&copywrite 2024 All Right Reserved</p>
+		</div>
+
+		<div class="col">
+			<p style="font-weight:bold; color:white;">Contact Us</p>
+			<p style="color:white;">Royalasset ltd W1T 1JY 56 GLOUCESTER ROAD, KENSINGTON UNITED KINGDOM</p>
+			<p style="color:white;">803-402-3696</p>
+			<p style="color:white;">royalasset.rf.gd@gmail.com</p>
+		</div>
+	</div>
+	
+</section>
+
+
+
+
+
+		
+
+	<script type="text/javascript" src="js/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

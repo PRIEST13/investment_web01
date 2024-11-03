@@ -1,0 +1,45 @@
+body{
+	background-color: ;
+}
+
+.header{
+	background-color:tomato;
+	color:white;
+	padding:10px;
+}
+
+section{
+	margin:5px;
+	padding:5px;
+	border:2px solid #000;
+
+}
+
+footer{
+	background-color:#000;
+	color:white;
+	padding:10px;
+	margin: 0px;
+	/*position:fixed;*/
+	width: 100%;
+}
+
+.img-content"{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width:40%;
+	border:1px solid #000;
+}
+.backgroud{
+    background-image: url('../images/m1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+

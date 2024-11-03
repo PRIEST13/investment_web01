@@ -1,0 +1,42 @@
+body{
+	background-color: rgba(145, 150, 1.0, 0.5);
+	color: white;
+	margin:0px;
+	padding:0px;
+}
+
+h2{
+    background-color:rgb(168, 113, 207);
+    padding:20px;
+    margin: 0px;
+}
+.contect{
+	width: 90%;
+	margin:0px auto;
+	padding: 0px;
+	height:auto;
+	margin-top: 3px;
+	padding:50px;
+}
+
+.sibling{
+	display:inline-block;
+	width:28%;
+	height:250px;
+	background-color:purple;
+	color:white;
+	text-align:justify;
+	padding: 5px;
+	border:20px solid orange;
+}
+.page{
+	width: 70%;
+	background-color:red;
+	margin:0px auto;
+	text-align: justify;
+	padding--top:30px;
+	margin-top:20px;
+	color:white;
+	border:20px solid whitesmoke;
+	padding:8px;
+}

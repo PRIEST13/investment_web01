@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>royalsset</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="icon" type="X-icon" href="img/logo3.jpg">
+
+    <!-- style sheet -->
+    <style>
+      #navhover:hover{
+        background-color:darkgoldenrod;
+        color:white;
+        border-radius:30px;
+        transition:0.2s;
+        
+      }
+      #active{
+        background-color:darkgoldenrod;
+        color:white;
+        border-radius:30px;
+        
+      }
+      #active:hover{
+        background-color:white;
+        color:black;
+        border-radius:30px;
+        transition:0.5s;
+      }
+      .login{
+        background-image:url('./img/bull.jpg');
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        width:100%;
+        height:600px;
+      }
+      #btn1{
+        border-radius:20px;
+        padding-block:10px;
+
+
+      }
+      #btn2{
+        background-color:transparent;
+        border-radius:30px;
+        color:white;
+      }
+      #btn2:hover{
+        background-color:white;
+        color:black;
+        transition:0.5s;
+      }
+      #btn1:hover{
+        background-color:white;
+        color:black;
+        transition:0.5s;
+      }
+      #btn3:hover{
+        background-color:white;
+        color:black;
+        transition:0.5s;
+
+      }
+      #btn4:hover{
+        background-color:white;
+        color:black;
+        transition:0.5s;
+      }
+      #btn4{
+        border-radius:30px;
+      }
+      #btn5{
+        background-color:purple;
+        color:white;
+
+      }
+      input{
+        border-radius:25px;
+        margin:5px;
+      }
+    </style>
+
+
+
+  
+
+
+</head>
+
+<body>
+
+
+
+  <!-- website header -->
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+    <a href="index.html">
+      <img src="img/logo2.png" alt="logo" width="250%" height="60px">
+    </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- navbar links -->
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="active">Get started</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="navhover">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html" id="navhover">About</a>
+      </li>
+      <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navhover" data-toggle="dropdown">
+        Services
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="market.html">Market</a>
+        <a class="dropdown-item" href="investment.html">Investments</a>
+      </div>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html" id="navhover">Contact</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500 Index"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100 Cash CFD"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR to USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "largeChartUrl": "http://royalasset.rd.gd",
+  "displayMode": "regular",
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+
+
+<!-- company founder -->
+
+<div class="container p-5">
+
+  <div class="media border shadow-lg  p-3">
+      <img src="img/will.jpg" alt="co-founder" class="mr-3 mt-3  rounded-circle" style="width:60px;">
+
+      <div class="media-body">
+          <h4>Will Templeton</h4>
+          <p>
+              Will Templeton is a Research Analyst at Thompson Investment Management. He graduated from the University of Wisconsin-Madison with a B.B.A. in Finance, Investment, and Banking and an M.S. in Finance where he completed the Applied Security Analysis Program. In 2016, Being the co-founder <strong>Royal Asset</strong>, an investment company dedicated to delivering innovative financial solutions and wealth management services. With a mission to provide clients with tailored strategies that align with their financial goals, whether in stocks, real estate, or other asset classes.  Will was also awarded the Evans Scholarship for caddies. Outside of work, he enjoys golfing, skiing, and rooting for the Green Bay Packers.
+          </p>
+
+      </div>
+
+  </div>
+
+
+
+</div>
+
+
+
+
+<!-- Showcase -->
+
+<section class="p-4 container">
+  <img src="img/about.png" alt="about" width="100%" height="450px">
+
+  <div>
+    <h5 class="pt-3">Get to know us</h5>
+    <h4>About RoyalAsset</h4>
+    <p> <img src="img/map.png" alt="map" width="12%" height="40px"> Our Mission as an Investment company is to help investors eliminate the gap between where they are now financially, and where they want to be. In order to succeed, we work with investors to establish, improve and implement long-term strategic wealth management plans that make them possible to meet their financial purposes. Our investments plan is customized for each investor and they are based on investors profile and return targets. 
+
+        Furthermore, we strive to produce perfect long-term performance for our investors, despite the public securities market behavior. We assure that your wealth performs in the best way which is essential to meet your unique purposes. At the same time, We continually investigate new and better financial strategies and investment products that will more beneficially serve our investors’ financial purposes. We are a trusted partner that enables our investors to feel secure in the knowledge that their investment are safe with us. Royalasset Trading Investment Platform.</p>
+    
+  </div>
+  
+</section>
+
+
+
+
+<div class="container">
+
+  <div class="card bg-secondary">
+
+    <h3 class="card-title text-center text-light" style="font-weight:bold; font-family:sans-serif;">ACHIEVEMENT</h3>
+    
+    <div class="card-body">
+      <h3 class=" card-title text-center text-light">2.5K</h3>
+      <p class="card-text text-center text-light ">Happy Clients</p>
+
+      <h3 class=" card-title text-center text-light">132</h3>
+      <p class="card-text text-center text-light ">Awards</p>
+
+      <h3 class=" card-title text-center text-light">164K</h3>
+      <p class="card-text text-center text-light ">Hours Spent</p>
+
+    </div>
+
+
+  </div>
+  
+</div>
+
+
+<div class="container">
+  
+    <h3 class="text-center p-4 mt-3" style="text-decoration:underline;">Partner Companies</h3>
+
+  <div class="row  border border-rounded">
+
+    <div class="col pt-3">
+      <img src="img/crypto.jpg" alt="crypto.com" width="50%" height="50px">
+    </div>
+     <div class="col pt-3">
+      <img src="img/binance.png" alt="binance.com" width="50%" height="50px">
+    </div>
+    <div class="col col-md pt-3 mb-3">
+      <img src="img/coinbase.jpg" alt="crypto.com" width="50%" height="50px" >
+    </div>
+    <div class="col pt-3">
+      <img src="img/luno.png" alt="crypto.com" width="50%" height="50px">
+    </div>
+    
+    
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container pt-5 mb-3">
+
+<h3 class="text-center p-5" style="color:purple; font-weight:bold;">Royal Asset Investment Company</h3>
+
+ <div class="card p-4">
+  <div>
+<p>
+  <strong>Royal Asset</strong> is an innovative investment firm dedicated to empowering individuals and businesses on their journey to financial freedom. As co-founders, we have built our company on the principle that achieving long-term financial security requires more than just capital; it demands expert insights, strategic planning, and tailored solutions.
+
+At <strong>Royal Asset</strong>, we work tirelessly to deliver the most accurate market analysis and investment strategies, helping our clients navigate the complexities of the financial world. Our team of experienced professionals continuously monitor market trends, identify lucrative opportunities, and provide sound financial advice that aligns with your unique goals.
+
+Whether you are looking to grow your wealth, secure your retirement, or make informed business decisions, we are committed to offering you the best tools, resources, and strategies to unlock your financial potential. Our mission is to ensure that you not only achieve your financial objectives but exceed them—paving the way for long-term financial freedom.
+
+At <strong>Royal Asset</strong>, your success is our success.
+</p>
+  </div>
+
+ </div>
+  
+  <div class="row p-4">
+
+    <div class="col-md">
+      <img src="img/men.jpeg" alt="company-workers" width="80%" height="200px">
+    </div>
+
+    <div class="col-md">
+     <img src="img/men1.jpeg" alt="company-workers" width="80%" height="200px">
+    </div>
+  
+
+  </div>
+
+</div>
+
+
+
+
+
+<!-- company cert -->
+ <div class="container p-5">
+  <img src="img/cert.jpg" alt="cert" width="50%" height="400px" class="border border-rounded">
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Website Footer  -->
+
+<section class="container-fluid p4 bg-dark">
+  <div class="row">
+    <div class="col">
+      <img src="img/logo.png" alt="logo" width="25%">
+      <p class="mt-4 text-light">&copywrite 2024 All Right Reserved</p>
+    </div>
+
+    <div class="col">
+      <p style="font-weight:bold; color:white;">Contact Us</p>
+      <p style="color:white;">Royalasset ltd W1T 1JY 56 GLOUCESTER ROAD, KENSINGTON UNITED KINGDOM</p>
+      <p style="color:white;">803-402-3696</p>
+      <p style="color:white;">royalasset.rf.gd@gmail.com</p>
+    </div>
+  </div>
+  
+</section>
+
+
+  <script type="text/javascript" src="js/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
